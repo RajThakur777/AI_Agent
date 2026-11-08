@@ -1,8 +1,7 @@
-
 import os
 
 START_SEQUENCE = "\033[90m"  # ANSI escape code for gray text
-END_SEQUENCE = "\033[0m"     # ANSI escape code to reset text color
+END_SEQUENCE = "\033[0m"  # ANSI escape code to reset text color
 
 
 def log(text):
